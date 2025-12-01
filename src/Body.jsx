@@ -4,6 +4,8 @@ import { resList } from "./utils/resList";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+  git 
+
 
   // FIX: show all restaurants initially
   const [filteredRestaurant, setFilteredRestaurant] = useState(resList);
