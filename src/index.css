@@ -1,14 +1,20 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+
+
 .header{
   display:flex;
   justify-content: space-between;
-  height:100px;
+  height:120px;
   margin:10px;
   padding:10px;
   border:1px solid black;
 }
 .logo1 > img{
   width:150px;
-  height:110px;
+  height:100px;
 }
 .nav-details > ul{
   display:flex;
@@ -22,6 +28,8 @@
   justify-content: center;
   margin:10px;
   padding:10px;
+  border:1px solid black;  
+  background-color: #f0f0f0;
 }
 .res-container{
   margin:5px;
@@ -50,19 +58,65 @@
   width:50px;
   height:50px;
 }
+.lbuttons{
+  display:flex;
+  justify-content: space-between;
+}
 .filter{
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
   margin:10px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
 }
-.Search{
+.filter:hover{
+  background-color: #1d4ed8;
+}
+.search{
   display: flex;
   flex-wrap:wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin:20px;
+}
+.search-box{
+  display:flex;
+  
+}
+.search-btn{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin:10px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  
+  
+}
+.search-bar{
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  margin:10px;
+}
+.search-btn:hover{
+  background-color: #1d4ed8;
 }
 .img-logo>img{
   width:250px;
   height:200px;
+}
+
+.user-card{
+ font-size: 24px;
+ border-style: dotted;
 }
 

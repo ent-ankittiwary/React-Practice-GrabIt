@@ -1,5 +1,5 @@
 // Shimmer.jsx
-const Shimmer = () => {
+const ShimmerMenu = () => {
   return (
     <div className="shimmer-wrapper">
       {Array(10)
@@ -11,4 +11,4 @@ const Shimmer = () => {
   );
 };
 
-export default Shimmer;
+export default ShimmerMenu;
